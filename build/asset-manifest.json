@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/Final-Web-Project.git/static/css/main.a2ac6a23.chunk.css",
+    "main.js": "/Final-Web-Project.git/static/js/main.4972edd5.chunk.js",
+    "main.js.map": "/Final-Web-Project.git/static/js/main.4972edd5.chunk.js.map",
+    "runtime-main.js": "/Final-Web-Project.git/static/js/runtime-main.547e3b32.js",
+    "runtime-main.js.map": "/Final-Web-Project.git/static/js/runtime-main.547e3b32.js.map",
+    "static/css/2.be82fd29.chunk.css": "/Final-Web-Project.git/static/css/2.be82fd29.chunk.css",
+    "static/js/2.3feb92fb.chunk.js": "/Final-Web-Project.git/static/js/2.3feb92fb.chunk.js",
+    "static/js/2.3feb92fb.chunk.js.map": "/Final-Web-Project.git/static/js/2.3feb92fb.chunk.js.map",
+    "index.html": "/Final-Web-Project.git/index.html",
+    "precache-manifest.475e05c80ae6a414fe3cbb6d77c835b2.js": "/Final-Web-Project.git/precache-manifest.475e05c80ae6a414fe3cbb6d77c835b2.js",
+    "service-worker.js": "/Final-Web-Project.git/service-worker.js",
+    "static/css/2.be82fd29.chunk.css.map": "/Final-Web-Project.git/static/css/2.be82fd29.chunk.css.map",
+    "static/css/main.a2ac6a23.chunk.css.map": "/Final-Web-Project.git/static/css/main.a2ac6a23.chunk.css.map",
+    "static/js/2.3feb92fb.chunk.js.LICENSE.txt": "/Final-Web-Project.git/static/js/2.3feb92fb.chunk.js.LICENSE.txt",
+    "static/media/Breeders.jpg": "/Final-Web-Project.git/static/media/Breeders.439fa423.jpg",
+    "static/media/Drinker.jpg": "/Final-Web-Project.git/static/media/Drinker.35514b16.jpg",
+    "static/media/PMV.jpg": "/Final-Web-Project.git/static/media/PMV.81dc5a8c.jpg",
+    "static/media/SuperCrack.jpg": "/Final-Web-Project.git/static/media/SuperCrack.41b2d1f5.jpg",
+    "static/media/canker.png": "/Final-Web-Project.git/static/media/canker.344da0e2.png",
+    "static/media/headimg2.jpg": "/Final-Web-Project.git/static/media/headimg2.d0065fe3.jpg",
+    "static/media/immune.jpg": "/Final-Web-Project.git/static/media/immune.dd33e0d8.jpg",
+    "static/media/malaria.jpg": "/Final-Web-Project.git/static/media/malaria.221c1295.jpg",
+    "static/media/mielies.jpg": "/Final-Web-Project.git/static/media/mielies.f74f2f82.jpg",
+    "static/media/racemix.jpg": "/Final-Web-Project.git/static/media/racemix.12c8ec99.jpg",
+    "static/media/simplewallpaper.png": "/Final-Web-Project.git/static/media/simplewallpaper.7b7badd1.png",
+    "static/media/sunflower.jpg": "/Final-Web-Project.git/static/media/sunflower.deaf13de.jpg",
+    "static/media/worms.jpg": "/Final-Web-Project.git/static/media/worms.33a511e4.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.547e3b32.js",
+    "static/css/2.be82fd29.chunk.css",
+    "static/js/2.3feb92fb.chunk.js",
+    "static/css/main.a2ac6a23.chunk.css",
+    "static/js/main.4972edd5.chunk.js"
+  ]
+}
