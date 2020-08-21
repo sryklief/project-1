@@ -1,54 +1,81 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom';
-import { Row } from 'react-bootstrap';
-import data from '../../backend/data';
+import canker from './assests/canker.png';
+import worms from './assests/worms.jpg';
+import malaria from './assests/malaria.jpg';
+import PMV from './assests/PMV.jpg';
+import immune from './assests/immune.jpg';
 
 class Prod2 extends Component {
     render () {
         return (
-           <div>
-                <div className="container">
-                    <ul className="nav nav-tabs nav-justified">
-                        <li className="nav-item">
-                            <Link className="nav-link" to="/prod1" role="tab" data-toggle="tab">Prod1</Link>
-                        </li>
-
-                        <li className="nav-item">
-                            <Link className="nav-link" to="#prod2" role="tab" data-toggle="tab">Prod2</Link>
-                        </li>
-
-                        <li className="nav-item">
-                            <Link className="nav-link" to="/prod3" role="tab" data-toggle="tab">Prod3</Link>
-                        </li>
-                    </ul>
-                </div>
-                <div className="tab-content mb-5" >
-                <Row>
-                        {data.products2.map(product =>
-                            <div id="#prod" className="tab-pane in active text-center mt-5" role="tabpanel1">
-                            <div class="proj-card" style={{width: "300px", paddingLeft: '5em'}}>
-                                <img src={product.image} class="card-img-top" alt="..."/>
+               <div className="prod-body">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <div className="card">
+                                <img class="card-img-top" src={canker} alt="Card image cap"/>  
                                 <div class="card-body">
-                                <h5 class="card-title">{product.name}</h5>
-                                    <p class="card-text">All medication has been lab tested.</p>
+                                    <h5 class="card-title">Canker Treatment</h5>
+                                    <p class="card-text">For the treament of canker.</p>
                                 </div>
-                                
-                            <div class="card-body">
-                            <a class="card-link">{product.price}</a>
-                                <a href="#" class="card-link">Add to cart</a>
-                            </div>
+                                <div class="card-body">
+                                    <p>R155,00</p>
+                                    <a href="/Canker" class="card-link">View Product</a>
+                                </div>
                             </div>
                         </div>
-                            )}
-                    </Row>
-                </div>
-                <div className="footer" style={{backgroundColor: 'grey'}}>
-                    <p className='footer-content' style={{paddingTop: '2rem', paddingBottom: '4rem'}}>
-                        Flokkies Flock<br/>
-                        Email - flokkiesflock@gmail.com<br/>
-                        Contact - 123-456-7890
-                    </p>
-                </div>
+                        <div class="col-sm-3">
+                        <div className="card">
+                            <img class="card-img-top" src={worms} alt="Card image cap"/>
+                                <div class="card-body">
+                                    <h5 class="card-title">Dewormer</h5>
+                                    <p class="card-text">For the treament of worms.</p>
+                                </div>
+                                <div class="card-body">
+                                    <p>R150,00</p>
+                                    <a href="/Worm" class="card-link">View Product</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                        <div className="card">
+                            <img class="card-img-top" src={malaria} alt="Card image cap"/>
+                                <div class="card-body">
+                                    <h5 class="card-title">Malaria Vaccine</h5>
+                                    <p class="card-text">For the prevension of malaria.</p>
+                                </div>
+                                <div class="card-body">
+                                    <p>R160,00</p>
+                                    <a href="/Mala" class="card-link">View Product</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                        <div className="card">
+                                <img class="card-img-top" src={PMV} alt="Card image cap"/>
+                                <div class="card-body">
+                                    <h5 class="card-title">PMV Vaccince</h5>
+                                    <p class="card-text">For the prevention of paramyxo virus.</p>
+                                </div>
+                                <div class="card-body">
+                                    <p>R200,00</p>
+                                    <a href="/Pmv" class="card-link">View Product</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                        <div className="card" style={{marginBottom: "1rem"}}>
+                            <img class="card-img-top" src={immune} alt="Card image cap"/>
+                                <div class="card-body">
+                                    <h5 class="card-title">Immune Booster</h5>
+                                    <p class="card-text">To stregnthen the immune system of your birds.</p>
+                                </div>
+                                <div class="card-body">
+                                    <p>R110,00 </p>
+                                    <a href="/Immune" class="card-link">View Product</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
             </div>
         )
     }
